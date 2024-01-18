@@ -1,0 +1,21 @@
+{
+  "name": "ts-fp-utils",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jsdom": "^21.1.6",
+    "fast-check": "^3.15.0",
+    "jsdom": "^23.2.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "date-fns-tz": "^1.2.2",
+    "decimal.js": "^10.4.3"
+  }
+}
